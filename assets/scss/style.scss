@@ -1,0 +1,23 @@
+/*
+Theme Name: AWD Wordpress Starter
+Theme URI:
+Author: Chris Morrall
+Author URI: https://chrismorrall.me
+Description: A clean starter theme based on Bootstrap
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: SASS, clean, bootstrap
+Text Domain: awd-starter
+*/
+
+// Import base CSS
+@import "base/base";
+
+// Import CSS additional Classes
+
+// Import Bootstrap Overides
+@import "bs4custom/custom";
+
+// Import Bootstrap CSS
+@import "node_modules/bootstrap/scss/bootstrap";
